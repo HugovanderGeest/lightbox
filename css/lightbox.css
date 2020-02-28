@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header, footer {
+    padding: 1em 2em;
+}
+h1 {
+    margin: 0;
+    padding: .67em 0;
+}
+img {
+    max-width: 100%;
+}
+main{
+    padding: 1em 2em;
+    display: grid; 
+    grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+    grid-gap: 2em;
+    justify-items: center;
+}
+
+main img {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.een {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.een img, .een p {
+    grid-column: 1;
+    grid-row: 1; 
+}
+
+.een p {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: 0 0 4px black;
+}
+
+.validatie img {
+    height: 1em;
+    width: auto;
+    border: 0;
+    margin: 0 .3em;
+    cursor: pointer;
+}
+
+
